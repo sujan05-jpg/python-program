@@ -1,0 +1,10 @@
+  #findng largest among three numbers
+a=int(input("enter a"))
+b=int(input("enter b"))
+c=int(input("enter c"))
+if (a>b)and(a>c):
+   print("a is largest")
+elif (b>a):
+    print("b is largest")
+else: 
+     print("c is largest") 
